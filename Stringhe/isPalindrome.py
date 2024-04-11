@@ -1,7 +1,7 @@
 def isPalindrome(str):
     
     # @param str: string
-    # @return: boolean
+    # return: boolean
     
     lenght = len(str)
     lenght2 = lenght / 2
@@ -11,7 +11,3 @@ def isPalindrome(str):
             return false
         else:
             return true
-            
-            
-myStr = 'osso'
-isPalindrome(myStr)
