@@ -1,4 +1,4 @@
-def scurisci(pict):
+def darkenImage(pict):
 
     # @param pict: picture
     
@@ -18,4 +18,4 @@ def scurisci(pict):
         
         
 myPict = makeEmptyPicture(300, 300)
-scurisci(myPict)
+darkenImage(myPict)

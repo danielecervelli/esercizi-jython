@@ -1,4 +1,4 @@
-def schiarisci(pict):
+def brightenImage(pict):
 
     # @param pict: picture
     
@@ -18,4 +18,4 @@ def schiarisci(pict):
         
 
 myPict = makeEmptyPicture(300, 300, black)
-schiarisci(myPict)
+brightenImage(myPict)
