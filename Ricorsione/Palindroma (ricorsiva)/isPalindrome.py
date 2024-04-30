@@ -6,8 +6,9 @@ def isPalindrome(str):
       lenght = len(str)
       
       if lenght == 0 or lenght == 1:
-          return true
+          return True
+      
       if str[0] == str[lenght - 1]:
           return isPalindrome(str[1:lenght - 1])
       else:
-          return false
+          return False
