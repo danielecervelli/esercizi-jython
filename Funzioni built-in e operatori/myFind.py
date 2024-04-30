@@ -1,13 +1,13 @@
-def myFind(s, c):
+def myFind(str, subStr):
 
-    # @param s: string
-    # @param c: string
-    # return string
+    # @param str: string
+    # @param subStr: string
+    # return int
     
-    for i in range(0,len(s)):
+    for i in range(0, len(str)):
         
-          if (c in s[i:len(c) + i]):
+          if(subStr in str[i:len(subStr) + i]):
              return i
-          
+             
     return -1 
     

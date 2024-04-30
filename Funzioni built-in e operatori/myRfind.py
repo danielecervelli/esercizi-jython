@@ -1,11 +1,13 @@
-def myRfind(s, c):
+def myRfind(str, subStr):
 
-    # @param s: string
-    # @param c: string
-    # return string
+    # @param str: string
+    # @param subStr: string
+    # return int
     
-    for i in range(len(s) -l en(c), -1, -1):
-    
-        if(c in s[i:len(c) + vi]):
-            return i   
+    for i in range(len(str) - len(subStr), -1, -1):
+
+        if(str[i:i + len(subStr)] == subStr):
+            return i
+             
     return -1 
+    
