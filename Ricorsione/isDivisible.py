@@ -4,7 +4,6 @@ def isDivisible(num):
     # return bool
     
     if (num < 10):
-    
         if (num in [3, 6, 9]):
             return True  
         else:
